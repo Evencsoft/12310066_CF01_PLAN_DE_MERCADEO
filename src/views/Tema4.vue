@@ -33,7 +33,7 @@
         p El #[i marketing] estratégico está relacionado con el conocimiento profundo de los mercados y clientes en función de las ofertas. Este enfoque se centra en el análisis del mercado, con el objetivo de desarrollar productos o servicios que se diferencien de los de la competencia y respondan de manera efectiva a las necesidades de los consumidores. Como señala Schnarch (2013), "El #[i marketing] estratégico se refiere al análisis sistemático y permanente de las necesidades del mercado y al desarrollo de conceptos de productos rentables destinados a unos grupos de compradores específicos y que presentan cualidades distintivas que los diferencien de los competidores inmediatos, asegurando así al productor una ventaja competitiva duradera y defendible" (p. 61).
         p El #[i marketing] estratégico se enfoca en actividades como:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-7
+      .col-lg-7.order-lg-1.order-2
         ul.lista-ul
           li
             i.fas.fa-check
@@ -51,21 +51,20 @@
             i.fas.fa-check
             | Proponer estrategias de diferenciación: desarrollar productos y servicios que posean características únicas que los distingan de la competencia.
 
-      .col-lg-3(data-aos="zoom-in")
+      .col-lg-3.col-6.mb-lg-0.order-lg2.order-1.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema4/img2.png', alt='')
-    
-    .titulo.mb-4(data-aos="flip-up")
-      img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
-      h5.mb-0 a #[i Marketing] operativo
+    .bg3
+      .titulo.mb-4(data-aos="flip-up")
+        img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
+        h5.mb-0 b #[i Marketing] operativo
 
-    .bg2
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-12(data-aos="fade-left") 
           p Una vez definida la estrategia, se pasa al #[i marketing] operativo, que consiste en la implementación de las acciones necesarias para que las ofertas lleguen al mercado objetivo. Según Schnarch (2013), el #[i marketing] operativo se ocupa de organizar las estrategias de venta y comunicación con el propósito de "dar a conocer a los compradores potenciales las cualidades distintivas de los productos ofrecidos" (p. 61). El #[i marketing] estratégico y el operativo se complementan y permiten a las empresas alcanzar sus objetivos y metas comerciales. 
           p El #[i marketing] operativo implica actividades como:
       .row.justify-content-center.align-items-center.mb-4
-        .col-lg-3
+        .col-lg-3.col-6.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema4/img3.png', alt='')
         .col-lg-7
@@ -81,7 +80,7 @@
               | Definir los programas de producto, precio, distribución y comunicaciones: desarrollar un plan que incluya la definición del producto, su precio, los canales de distribución y las estrategias de promoción.
             li
               i.fas.fa-check.clrs
-              | Coordinar estos programas: asegurar la coherencia y sinergia entre las diferentes acciones de #[i marketing].
+              p.mb-0 Coordinar estos programas: asegurar la coherencia y sinergia entre las diferentes acciones de #[i marketing].
             li
               i.fas.fa-check.clrs
               | Controlar los resultados y establecer acciones correctivas: evaluar el desempeño de las estrategias implementadas y realizar los ajustes necesarios para mejorar su efectividad.
@@ -92,7 +91,7 @@
         p Baena (2011) define el "objetivo de #[i marketing]" como una declaración de los resultados que se espera alcanzar mediante las estrategias de #[i marketing] de la empresa. Para que los objetivos de #[i marketing] sean útiles, deben cumplir con los siguientes requisitos:
 
     .row.mb-4
-      .col-lg-6
+      .col-lg-6.mb-4
         .tarjeta-avatar-b.mb-4.h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img4.svg' alt='AvatarTop')
@@ -114,7 +113,7 @@
         p Algunos ejemplos comunes de objetivos de #[i marketing] incluyen:
       
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img6.svg', alt='')
       .col-lg-5(data-aos="fade-left")
@@ -156,9 +155,9 @@
 
     .titulo.mb-4(data-aos="flip-up")
       img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
-      h5.mb-0 a Tipo de estrategia de mercado
+      h5.mb-0 Tipo de estrategia de mercado
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5
+      .col-lg.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -169,26 +168,26 @@
         p #[b Diferenciación]: la empresa se enfoca en su ventaja competitiva para diferenciarse de la competencia.
         p Enfoque
 
-      .col-md.tarjeta.color-acento-contenido.p-5
+      .col-lg.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema4/img8.svg', alt='Texto que describa la imagen')
         h4.text-center Estrategias intensivas o de crecimiento
-        p Penetración en el mercado: con los productos actuales y a través de un mayor esfuerzo en mercadeo lograr aumentar el consumo.
-        p Desarrollo del mercado: con los productos actuales abrir nuevas zonas del mercado.
-        p Desarrollo de producto: se busca incrementar la venta mejorando un producto actual, innovando con productos nuevos.
+        p #[b Penetración en el mercado:] con los productos actuales y a través de un mayor esfuerzo en mercadeo lograr aumentar el consumo.
+        p #[b Desarrollo del mercado:] con los productos actuales abrir nuevas zonas del mercado.
+        p #[b Desarrollo de producto:] se busca incrementar la venta mejorando un producto actual, innovando con productos nuevos.
 
-      .col-md.tarjeta.color-secundario.p-5
+      .col-lg.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema4/img9.svg', alt='Texto que describa la imagen')
         h4.text-center Estrategias de diversificación
-        p Diversificación: desarrollo de nuevos productos en nuevos mercados.
-        p Diversificación concéntrica: añadir productos relacionados.
-        p Diversificación por conglomerados: añadir productos no relacionados.
-        p Diversificación horizontal: añadir productos no relacionados, para clientes actuales.
+        p #[b Diversificación]: desarrollo de nuevos productos en nuevos mercados.
+        p #[b Diversificación concéntrica]: añadir productos relacionados.
+        p #[b Diversificación por conglomerados]: añadir productos no relacionados.
+        p #[b Diversificación horizontal]: añadir productos no relacionados, para clientes actuales.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10

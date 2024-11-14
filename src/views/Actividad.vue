@@ -230,7 +230,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Benchmarking empresarial',
+              texto: '<em>Benchmarking</em> empresarial',
               esCorrecta: false,
             },
             {

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Diagnóstico de la situación de la empresa',
     descripcionCurso:
-      'Es necesario proceder a hacer un diagnóstico de mercados para que las empresas entiendan la realidad a la que se enfrentan momento a momento y seguir en conexión constante con todos los ámbitos comerciales, esa es la realidad que trabajar ese componente formativo a manera de diagnóstico inicial.',
+      'Es necesario realizar un diagnóstico de mercados para que las empresas comprendan la realidad a la que se enfrentan en cada momento y mantengan una conexión constante con todos los ámbitos comerciales. Esta es la razón por la cual es fundamental trabajar este componente formativo para adquirir conocimientos que faciliten entender la situación real de una empresa.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -13,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -175,11 +179,11 @@ export default {
         'artículos utilizados para producir otros bienes para su reventa.',
     },
     {
-      termino: 'Brand',
+      termino: '<em>Brand</em>',
       significado: 'marca de producto o de un servicio.',
     },
     {
-      termino: 'Branding',
+      termino: '<em>Branding</em>',
       significado:
         'la práctica de crear prestigio y gran valor a un producto con apoyo de marketing; dicha marca puede estar asociada o no al nombre de la empresa.',
     },

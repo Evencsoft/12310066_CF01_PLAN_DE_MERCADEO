@@ -3,17 +3,17 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    right: 10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 11%
+    right: 70%
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 21%
-    right: 50%
+    top: 18%
+    right: 12%
 
 
 @keyframes float1
@@ -36,24 +36,41 @@
 
 // Fondos
 .bg1
-  background-image: url(../assets/curso/temas/tema1/imgfon.png) !important
+  background-color: #E3F8F9
   padding: 3rem
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
 .bg2
-  background-image: url(../assets/curso/temas/tema3/imgfondo2.png) !important
+  //background-image: url(../assets/curso/temas/tema3/imgfondo2.png) !important
+  background: linear-gradient(to bottom, #FFF, #EAF4FF, #FFF) !important
   padding: 3rem
   margin-inline: -3rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
-
+.bg3
+  background: linear-gradient(to bottom, #FFF, #E4F8F9, #FFF)
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  padding: 3rem
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 .tarjeta--fondo
   background-image: url(../assets/curso/temas/tema1/imgfon.png) !important
   margin-inline: -3rem !important
   padding: 3rem
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
+
+.tarjeta--fondo10
+  background-image: url(../assets/curso/temas/tema1/imgfon.png) !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.fondotarje
+  background-color: #D1F3F5 !important
 // titulo
 
 .titulo
@@ -76,7 +93,6 @@
   background-size: cover
   background-repeat: no-repeat
   background-position: center
-  margin-inline: -3rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
@@ -121,7 +137,7 @@
 // .cajon.cajon1
 //   background-color: #FFEDC8
 .cajon.cajon2
-  background-color: #D7F5F7
+  background-color: #DEECFB
 .cajon-b.color-primario:before
   background-color: #DEECFB
 
@@ -133,8 +149,8 @@
 
 // pasosb
 .pasos-b__header__item--before .pasos-b__header__item__dot 
-  border-color: #B1EC93
-  background-color: #B1EC93
+  border-color: #8CE2E5
+  background-color: #8CE2E5
 
 .pasos-b__header__item--active .pasos-b__header__item__line-container:before
   background-color: #9D9D9D
@@ -238,9 +254,9 @@
 .linea-tiempo-c__header__btn--left
   background-color: #003AA9
 .fa-angle-right
-  color: #fff
+  color: #FE9B4F
 .fa-angle-left
-  color: #fff
+  color:#FE9B4F
 .linea-tiempo-c__header__btn--left:hover, .linea-tiempo-c__header__btn--right:hover
   border-color: #fff
 
@@ -318,7 +334,7 @@
   color: #2F6261
 
 .bg--gradientBlue
-  background: linear-gradient(0deg, rgba(228,248,249,1) 100%, #e5e8eb 100%)
+  background: linear-gradient(to bottom, #FFF, #E4F8F9, #FFF)
   margin-inline: -3rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important

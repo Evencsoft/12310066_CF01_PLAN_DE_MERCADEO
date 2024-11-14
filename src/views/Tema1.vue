@@ -11,7 +11,7 @@
         p El diagnóstico de la situación de la empresa es un proceso analítico clave en la formulación de un plan de mercadeo. Este análisis tiene como objetivo evaluar de manera detallada los factores internos y externos que influyen en la operación de la organización, proporcionando una visión clara de su posición actual en el mercado. El diagnóstico empresarial permite identificar fortalezas, debilidades, oportunidades y amenazas, lo que facilita la toma de decisiones estratégicas orientadas a mejorar el rendimiento y la competitividad de la empresa.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="zoom-in")
+      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')
         
@@ -28,17 +28,17 @@
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-3
             figure
               img(src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
-        h2.text-center Análisis interno
+        h4.text-center Análisis interno
         p Evalúa los recursos y capacidades de la empresa, tanto en términos de sus activos tangibles (infraestructura, maquinaria, inventario) como de sus activos intangibles (imagen de marca, relaciones con clientes, conocimiento técnico, patentes). En esta sección se determinan las fortalezas y debilidades de la empresa.
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
-          .col-6
+          .col-3
             figure
               img(src='@/assets/curso/temas/tema1/img3.svg', alt='Texto que describa la imagen')
-        h2.text-center Análisis externo
+        h4.text-center Análisis externo
         p Examina el entorno competitivo y las condiciones del mercado que afectan el desempeño de la empresa. Este análisis incluye el estudio de los competidores, las tendencias del sector, los factores macroeconómicos y las regulaciones gubernamentales. Aquí se identifican las oportunidades y amenazas que presenta el entorno.
 
     separador
@@ -62,7 +62,7 @@
           img(src='@/assets/curso/temas/tema1/img4_1.svg', alt='En la imagen se define el análisis FODA como una herramienta que muestra la situación actual de una empresa a manera de diagnóstico preciso para facilitar la toma de decisiones. ')
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="zoom-in")
+      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema1/img5.png', alt='Imagen decorativa')
         
@@ -115,38 +115,40 @@
         p Las fortalezas se relacionan con los recursos, actividades, habilidades y capacidades que una empresa posee, controla y desarrolla positivamente.
         p Pueden ser consideradas fortalezas los siguientes:
     
-      .row.tarjeta--fondo.justify-content-center.align-items-center.mb-5
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen decorativa')
-        .col-lg-4
-          ul.lista-ul
-            li
-              i.fas.fa-angle-right
-              | Calidad total del producto.
-            li
-              i.fas.fa-angle-right
-              | Economías de escala.
-            li
-              i.fas.fa-angle-right
-              | Recursos humanos bien capacitados.
-            li
-              i.fas.fa-angle-right
-              | Innovación en tecnología.
-            li
-              i.fas.fa-angle-right
-              | Visión, misión, objetivos y metas bien definidos.
-            li
-              i.fas.fa-angle-right
-              | Servicio al cliente.
-            li
-              i.fas.fa-angle-right
-              | Liquidez.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10
+          .row.tarjeta--fondo10.justify-content-center.align-items-center.mb-5
+            .col-lg-4.col-8.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen decorativa')
+            .col-lg-6
+              ul.lista-ul
+                li
+                  i.fas.fa-angle-right
+                  | Calidad total del producto.
+                li
+                  i.fas.fa-angle-right
+                  | Economías de escala.
+                li
+                  i.fas.fa-angle-right
+                  | Recursos humanos bien capacitados.
+                li
+                  i.fas.fa-angle-right
+                  | Innovación en tecnología.
+                li
+                  i.fas.fa-angle-right
+                  | Visión, misión, objetivos y metas bien definidos.
+                li
+                  i.fas.fa-angle-right
+                  | Servicio al cliente.
+                li
+                  i.fas.fa-angle-right
+                  | Liquidez.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo.mb-4(data-aos="flip-up")
           img(src='@/assets/curso/temas/imgicono.svg', alt='Imagen decorativa')
-          h5.mb-0 Fortalezas
+          h5.mb-0 Oportunidades
       .col-lg-10
         p Las oportunidades son aspectos positivos, que permiten obtener ventajas competitivas. Por esta razón deben ser explotables y ser descubiertas en el contexto en el que se encuentra una organización (Fernández, 2008).
         p Éstas se agrupan en cinco categorías: factores económicos, factores sociales y políticos, factores tecnológicos, factores demográficos y mercados y competencia.
@@ -188,7 +190,7 @@
         p Pueden ser consideradas debilidades las siguientes situaciones:
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-10
-          .row.bg1.justify-content-center.align-items-center.mb-3
+          .row.tarjeta.bg1.p-4.justify-content-center.align-items-center.mb-3
             .col-lg-6
               figure
                 img(src='@/assets/curso/temas/tema1/img13.png', alt='Imagen decorativa')
@@ -241,21 +243,21 @@
       .col-lg-4(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img8.svg' alt='AvatarTop')
-          .tarjeta.color-primario.w-100.h-100
+          .tarjeta.color-primario.fondotarje.w-100.h-100
             .text-black.p-4
               h4.text-center Análisis PESTEL 
               p Examina los factores políticos, económicos, sociales, tecnológicos, ecológicos y legales que pueden afectar a la empresa. Esta herramienta es especialmente útil para comprender el entorno macroeconómico en el que opera la organización.
       .col-lg-4(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img9.svg' alt='AvatarTop')
-          .tarjeta.color-primario.w-100.h-100
+          .tarjeta.color-primario.fondotarje.w-100.h-100
             .text-black.p-4
               h4.text-center #[i Benchmarking]
               p Permite comparar el desempeño de la empresa con el de sus competidores o con el de empresas líderes en otras industrias. A través del #[i benchmarking], la empresa puede identificar las mejores prácticas y aplicarlas para mejorar sus propios procesos.
       .col-lg-4(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img10.svg' alt='AvatarTop')
-          .tarjeta.color-primario.w-100.h-100
+          .tarjeta.color-primario.fondotarje.w-100.h-100
             .text-black.p-4
               h4.text-center Análisis de las cinco fuerzas de Porter
               p Evalúa la intensidad competitiva dentro de una industria a través de cinco factores clave: el poder de los proveedores, el poder de los compradores, la amenaza de nuevos competidores, la amenaza de productos sustitutos y la rivalidad entre los competidores existentes.
@@ -273,7 +275,7 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Tomar decisiones informadas")
             .col-lg-12.mb-4.mb-md-0
-              p Las estrategias de marketing se basarán en hechos y análisis concretos, lo que reduce el riesgo de tomar decisiones impulsivas o mal fundamentadas.
+              p Las estrategias de #[i marketing] se basarán en hechos y análisis concretos, lo que reduce el riesgo de tomar decisiones impulsivas o mal fundamentadas.
           .row(titulo="Identificar oportunidades de crecimiento")
             .col-lg-12.mb-4.mb-md-0
               p Al analizar el mercado y el entorno competitivo, la empresa puede identificar nuevas áreas de expansión o nichos de mercado que no había considerado previamente.

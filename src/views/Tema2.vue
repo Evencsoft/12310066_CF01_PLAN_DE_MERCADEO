@@ -16,37 +16,45 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Pero, ¿Qué es una empresa? Una empresa puede ser entendida como un ente vivo que reúne a más de una persona —aunque también puede ser unipersonal— que trabaja en conjunto con el fin de alcanzar un objetivo común. Para ello, utiliza recursos financieros, administrativos, mercadológicos, materiales y humanos. Esta colaboración coordinada permite a la organización operar en el mercado y cumplir con sus metas. Las empresas pueden clasificarse de acuerdo con diversos criterios:
+        p.mb-0 Pero, ¿qué es una empresa? Una empresa puede ser entendida como un ente vivo que reúne a más de una persona —aunque también puede ser unipersonal— que trabaja en conjunto con el fin de alcanzar un objetivo común. Para ello, utiliza recursos financieros, administrativos, mercadológicos, materiales y humanos. Esta colaboración coordinada permite a la organización operar en el mercado y cumplir con sus metas. Las empresas pueden clasificarse de acuerdo con diversos criterios:
     
     
     .row.bg--gradientBlue.justify-content-center.align-items-center.mb-4
       .col-lg-11
-        .row.justify-content-center.align-items-center.mb-3
-          .col-lg-4(data-aos="zoom-in")
-            figure
-              img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imagen decorativa')
+        .row.mb-3
+          .col-lg-4.col-8.mb-lg-0.mb-4.tarjeta.h100(data-aos="zoom-in")
+            .row.mb-3
+              .col-lg-10.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imagen decorativa')
+            .row
+              .col-lg-10(data-aos="flip-up")
+                h4.text-left Propiedad
+                p.text-left Públicas, privadas o mixtas.
+            
+          .col-lg-4.col-8.mb-lg-0.mb-4.tarjeta.h100(data-aos="zoom-in")
+            .row.mb-3
+              .col-lg-10.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imagen decorativa')
+            .row
+              .col-lg-10(data-aos="flip-up")
+                h4.text-left Producción
+                p.text-left Primarias (explotación de recursos naturales), secundarias (transformación de recursos naturales), o terciarias (comercialización y prestación de servicios).
+          .col-lg-4.col-8.mb-lg-0.mb-4.tarjeta.h100(data-aos="zoom-in")
+            .row.mb-3
+              .col-lg-10.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/temas/tema2/img4.svg', alt='Imagen decorativa')
+            .row
+              .col-lg-10(data-aos="flip-up")
+                h4.text-left Tamaño
+                p.text-left Micro, pequeñas, medianas y grandes empresas.
 
-          .col-lg-4(data-aos="zoom-in")
-            figure
-              img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imagen decorativa')
-          .col-lg-4(data-aos="zoom-in")
-            figure
-              img(src='@/assets/curso/temas/tema2/img4.svg', alt='Imagen decorativa')
-        .row.justify-content-center.mb-3
-          .col-lg-4(data-aos="flip-up")
-            h4.text-left Propiedad
-            p.text-left Públicas, privadas o mixtas.
-
-          .col-lg-4(data-aos="flip-up")
-            h4.text-left Producción
-            p.text-left Primarias (explotación de recursos naturales), secundarias (transformación de recursos naturales), o terciarias (comercialización y prestación de servicios).
-          .col-lg-4(data-aos="flip-up")
-            h4.text-left Tamaño
-            p.text-left Micro, pequeñas, medianas y grandes empresas.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="flip-up")
         p La conducción y gestión de una empresa se denomina administración o proceso administrativo, y abarca todas las actividades relacionadas con la planificación, organización, dirección y control de los procesos empresariales. Este enfoque administrativo es crucial para el dinamismo y el crecimiento de la organización en el largo plazo.
-        p En el siguiente gráfico se pueden observar las actividades de un proceso administrativo que se deben hacer en una empresa a manera general:
+        p En el siguiente gráfico se describen, de manera general, las actividades de un proceso administrativo que se deben realizar en una empresa:
     
     .titulo-sexto.color-acento-contenido.offset-2(data-aos="zoom-in")
       h5 Figura 4.
