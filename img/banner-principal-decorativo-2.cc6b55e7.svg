@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154.716" height="64.214" viewBox="0 0 154.716 64.214">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_611381" data-name="Trazado 611381" d="M116.4,142.62A13.176,13.176,0,0,0,103.227,155.8v28.121A13.176,13.176,0,0,0,116.4,197.094H131.05c1.107,1.243,2.784,4.33-.71,9.739,0,0,8.692.237,14.606-9.739h99.82a13.177,13.177,0,0,0,13.176-13.176V155.8a13.177,13.177,0,0,0-13.176-13.176Z" transform="translate(-103.227 -142.62)" fill="#ffb074"/>
+    </clipPath>
+  </defs>
+  <g id="banner-principal-decorativo-2" transform="translate(-953.189 -182.102)">
+    <g id="Grupo_1074316" data-name="Grupo 1074316" transform="translate(953.189 182.102)" clip-path="url(#clip-path)">
+      <rect id="Rectángulo_378641" data-name="Rectángulo 378641" width="154.716" height="64.451" transform="translate(0 0)" fill="#ffb074"/>
+    </g>
+    <rect id="Rectángulo_378639" data-name="Rectángulo 378639" width="75.165" height="7.048" transform="translate(1006.439 198.214)" fill="#f3f9ff"/>
+    <rect id="Rectángulo_378640" data-name="Rectángulo 378640" width="75.165" height="7.048" transform="translate(1006.439 213.973)" fill="#f3f9ff"/>
+    <path id="Trazado_611380" data-name="Trazado 611380" d="M152.359,175.611A12.655,12.655,0,1,1,139.7,162.956a12.655,12.655,0,0,1,12.655,12.655" transform="translate(842.721 34.006)" fill="#f3f9ff"/>
+  </g>
+</svg>
