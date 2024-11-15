@@ -18,38 +18,27 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Pero, ¿qué es una empresa? Una empresa puede ser entendida como un ente vivo que reúne a más de una persona —aunque también puede ser unipersonal— que trabaja en conjunto con el fin de alcanzar un objetivo común. Para ello, utiliza recursos financieros, administrativos, mercadológicos, materiales y humanos. Esta colaboración coordinada permite a la organización operar en el mercado y cumplir con sus metas. Las empresas pueden clasificarse de acuerdo con diversos criterios:
     
+    .bg--gradientBlue.px-md-5.px-4.py-4.mb-5
+      .row
+        .col-lg-4.col-sm-8.mb-lg-0.mb-4.tarjeta.h100(data-aos="fade-right")
+          .row.justify-content-center.mb-4
+            .col-lg-10.col-8
+              img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imagen decorativa')
+          h4.text-left Propiedad
+          p.text-left.mb-0 Públicas, privadas o mixtas.  
+        .col-lg-4.col-sm-8.mb-lg-0.mb-4.tarjeta.h100(data-aos="zoom-in")
+          .row.justify-content-center.mb-4
+            .col-lg-10.col-8
+              img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imagen decorativa')
+          h4.text-left Producción
+          p.text-left Primarias (explotación de recursos naturales), secundarias (transformación de recursos naturales), o terciarias (comercialización y prestación de servicios).
+        .col-lg-4.col-sm-8.mb-lg-0.mb-4.tarjeta.h100(data-aos="fade-left")
+          .row.justify-content-center.mb-4
+            .col-lg-10.col-8
+              img(src='@/assets/curso/temas/tema2/img4.svg', alt='Imagen decorativa')
+          h4.text-left Tamaño
+          p.text-left Micro, pequeñas, medianas y grandes empresas.
     
-    .row.bg--gradientBlue.justify-content-center.align-items-center.mb-4
-      .col-lg-11
-        .row.mb-3
-          .col-lg-4.col-8.mb-lg-0.mb-4.tarjeta.h100(data-aos="zoom-in")
-            .row.mb-3
-              .col-lg-10.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imagen decorativa')
-            .row
-              .col-lg-10(data-aos="flip-up")
-                h4.text-left Propiedad
-                p.text-left Públicas, privadas o mixtas.
-            
-          .col-lg-4.col-8.mb-lg-0.mb-4.tarjeta.h100(data-aos="zoom-in")
-            .row.mb-3
-              .col-lg-10.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imagen decorativa')
-            .row
-              .col-lg-10(data-aos="flip-up")
-                h4.text-left Producción
-                p.text-left Primarias (explotación de recursos naturales), secundarias (transformación de recursos naturales), o terciarias (comercialización y prestación de servicios).
-          .col-lg-4.col-8.mb-lg-0.mb-4.tarjeta.h100(data-aos="zoom-in")
-            .row.mb-3
-              .col-lg-10.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
-                figure
-                  img(src='@/assets/curso/temas/tema2/img4.svg', alt='Imagen decorativa')
-            .row
-              .col-lg-10(data-aos="flip-up")
-                h4.text-left Tamaño
-                p.text-left Micro, pequeñas, medianas y grandes empresas.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="flip-up")

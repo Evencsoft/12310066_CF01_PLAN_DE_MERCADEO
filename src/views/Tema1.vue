@@ -239,25 +239,25 @@
       .col-lg-12
         p Adicionalmente existen diversas herramientas que las empresas pueden utilizar para realizar un diagnóstico efectivo. Algunas de las más utilizadas incluyen:
 
-    .row.justify-content-center.mb-5
-      .col-lg-4(data-aos="flip-up")
+    .row.justify-content-center
+      .col-lg-4.mb-4(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img8.svg' alt='AvatarTop')
-          .tarjeta.color-primario.fondotarje.w-100.h-100
+          .tarjeta.color-primario.fondotarje.mb-lg-0.mb-4.w-100.h-100
             .text-black.p-4
               h4.text-center Análisis PESTEL 
               p Examina los factores políticos, económicos, sociales, tecnológicos, ecológicos y legales que pueden afectar a la empresa. Esta herramienta es especialmente útil para comprender el entorno macroeconómico en el que opera la organización.
-      .col-lg-4(data-aos="flip-up")
+      .col-lg-4.mb-4(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img9.svg' alt='AvatarTop')
-          .tarjeta.color-primario.fondotarje.w-100.h-100
+          .tarjeta.color-primario.fondotarje.w-100.mb-lg-0.mb-4.h-100
             .text-black.p-4
               h4.text-center #[i Benchmarking]
               p Permite comparar el desempeño de la empresa con el de sus competidores o con el de empresas líderes en otras industrias. A través del #[i benchmarking], la empresa puede identificar las mejores prácticas y aplicarlas para mejorar sus propios procesos.
-      .col-lg-4(data-aos="flip-up")
+      .col-lg-4.mb-4(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img10.svg' alt='AvatarTop')
-          .tarjeta.color-primario.fondotarje.w-100.h-100
+          .tarjeta.color-primario.fondotarje.mb-lg-0.mb-4.w-100.h-100
             .text-black.p-4
               h4.text-center Análisis de las cinco fuerzas de Porter
               p Evalúa la intensidad competitiva dentro de una industria a través de cinco factores clave: el poder de los proveedores, el poder de los compradores, la amenaza de nuevos competidores, la amenaza de productos sustitutos y la rivalidad entre los competidores existentes.
