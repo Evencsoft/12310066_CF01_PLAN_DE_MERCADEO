@@ -51,7 +51,7 @@
             i.fas.fa-check
             | Proponer estrategias de diferenciación: desarrollar productos y servicios que posean características únicas que los distingan de la competencia.
 
-      .col-lg-3.col-6.mb-lg-0.order-lg2.order-1.mb-4(data-aos="zoom-in")
+      .col-lg-3.col-6.mb-lg-0.order-lg-2.order-1.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema4/img2.png', alt='')
     .bg3

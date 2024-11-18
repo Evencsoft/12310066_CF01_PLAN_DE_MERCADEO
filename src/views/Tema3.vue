@@ -72,7 +72,7 @@
                 .col-12
                   .row
                     .col-lg-5.col-md-12.mb-4.mb-md-0
-                      p La American #[i Marketing] Association (AMA) definió el #[i marketing] como "un proceso de planear y ejecutar la concepción, el precio, la comunicación y distribución de ideas, bienes y servicios para crear intercambios que puedan satisfacer los objetivos de los individuos y de las organizaciones" (Salomón & Stuart, 2001, p. 3). Esta definición destaca el carácter estratégico y multidimensional del #[i marketing], que abarca desde el diseño del producto hasta su promoción y distribución.
+                      p La #[i American Marketing Association] (AMA) definió el #[i marketing] como "un proceso de planear y ejecutar la concepción, el precio, la comunicación y distribución de ideas, bienes y servicios para crear intercambios que puedan satisfacer los objetivos de los individuos y de las organizaciones" (Salomón & Stuart, 2001, p. 3). Esta definición destaca el carácter estratégico y multidimensional del #[i marketing], que abarca desde el diseño del producto hasta su promoción y distribución.
                     .col-lg-7.col-10.col-sm-12.mb-lg-0.mb-0
                         figure
                           img(src="@/assets/curso/temas/tema3/img6.png", alt="alt")
