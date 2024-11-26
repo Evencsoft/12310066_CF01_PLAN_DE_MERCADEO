@@ -122,6 +122,7 @@
           img(src='@/assets/curso/temas/tema2/img13_1.svg', alt='Se comparten en la imagen las perspectivas empresariales del direccionamiento estratégico: Inicia por el aspecto financiero; sigue el conocimiento de los procesos y su desarrollo; posteriormente el trabajo con el personal; luego se hace el cierre por medio de los clientes, su conocimiento y trabajo.')
     tarjeta
     separador
+    
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.2 Función del diagnóstico empresarial
 

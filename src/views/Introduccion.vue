@@ -23,7 +23,7 @@
             p.mb-0 Este componente formativo comenzará con un diagnóstico detallado de la situación empresarial, que permitirá a los participantes entender la realidad competitiva y formular objetivos estratégicos alineados con las metas organizacionales. Asimismo, se abordarán las herramientas de verificación del desempeño del plan, garantizando que se cumplan los plazos y las expectativas establecidas como principio a un plan de mercadeo que es lo que se busca completar.
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="1280" height="720" src="https://www.youtube.com/embed/8NH7O93yeDM" title="Diagnóstico de la situación de la empresa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     
 </template>
